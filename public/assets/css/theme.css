@@ -1341,6 +1341,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-banner {
+
   position: relative;
   margin-top: 16px;
   margin-bottom: 16px;
@@ -1351,8 +1352,14 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 10;
 }
 
+.home-background{
+  height: auto;
+  background-image: url('/assets/img/technology.jpg') ;
+  background-repeat: no-repeat;
+}
 .page-banner.home-banner {
   height: auto;
+
 }
 
 .page-banner.home-banner .img-fluid {

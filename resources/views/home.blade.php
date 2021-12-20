@@ -26,15 +26,26 @@
   <!-- Back to top button -->
   <div class="back-to-top"></div>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+  <header class="home-background">
+    <nav class="navbar" style="background-color: #ffff">
+      <ul class="nav justify-content-end mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/alltechsistemas/"><span class="mai-logo-facebook"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações."><span class="mai-logo-instagram"></span></a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffff">
+      
       <div class="container-fluid">
-        <img src="{{ url('/assets/img/logo.png') }}" />
+        <img src="{{ url('/assets/img/logo.png') }}" style="border-radius: 10px"/>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="navbar-collapse collapse" id="navbarContent">
+        <div class="navbar-collapse collapse mx-auto" id="navbarContent">
           <ul class="navbar-nav ml-auto mx-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">PÁGINA INICIAL</a>
@@ -56,30 +67,27 @@
             </li>
           </ul>
         </div>
-
-        <ul class="nav justify-content-end navbar-collapse collapse" id="navbarContent">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="mai-logo-facebook"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="mai-logo-whatsapp"></span></a>
-          </li>
-        </ul>
-
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container" >
       <div class="page-banner home-banner">
-        <div class="row align-items-center flex-wrap-reverse h-100">
+        <div class="row align-items-center flex-wrap-reverse">
           <div class="col-md-6 py-5 wow fadeInLeft">
             <h1 class="mb-4">Let's Check and Optimize your website!</h1>
             <p class="text-lg text-grey mb-5">Ignite the most powerfull growth engine you have ever built for your company</p>
-            <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
+            <a href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações." class="btn btn-primary btn-split">Fale Conosco <div class="fab"><span class="mai-logo-whatsapp"></span></div></a>
           </div>
           <div class="col-md-6 py-5 wow zoomIn">
+            
             <div class="img-fluid text-center">
-              <img src="../assets/img/banner_image_1.svg" alt="">
+              <div class="carousel-item">
+                <img src="" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>...</h5>
+                  <p>...</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
