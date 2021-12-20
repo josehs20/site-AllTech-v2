@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
 
   <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-  <title>SeoGram - SEO Agency Template</title>
+  <title>ALL TECH SISTEMAS</title>
 
   <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="../assets/css/theme.css">
 
 </head>
+
 <body>
 
   <!-- Back to top button -->
@@ -26,35 +28,43 @@
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
-      <div class="container">
-        <a href="#" class="navbar-brand">Seo<span class="text-primary">Gram.</span></a>
-
+      <div class="container-fluid">
+        <img src="{{ url('/assets/img/logo.png') }}" />
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="navbar-collapse collapse" id="navbarContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">PÁGINA INICIAL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html">QUEM SOMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
+              <a class="nav-link" href="service.html">SOLUÇÕES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
+              <a class="nav-link" href="blog.html">DOWNLOADS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">FALE CONOSCO</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-2" href="#">Free Analytics</a>
+              <a class="btn btn-primary ml-lg-2" href="#">ÁREA DO CLIENTE</a>
             </li>
           </ul>
         </div>
+
+        <ul class="nav justify-content-end navbar-collapse collapse" id="navbarContent">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="mai-logo-facebook"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="mai-logo-whatsapp"></span></a>
+          </li>
+        </ul>
 
       </div>
     </nav>
@@ -150,80 +160,80 @@
         <div class="divider mx-auto"></div>
       </div>
 
-        <div class="row">
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
             </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-            <div class="features">
-              <div class="header mb-3">
-                <span class="mai-business"></span>
-              </div>
-              <h5>OnSite SEO</h5>
-              <p>We analyse your website's structure, internal architecture & other key</p>
-            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
           </div>
         </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+          <div class="features">
+            <div class="header mb-3">
+              <span class="mai-business"></span>
+            </div>
+            <h5>OnSite SEO</h5>
+            <p>We analyse your website's structure, internal architecture & other key</p>
+          </div>
+        </div>
+      </div>
 
     </div> <!-- .container -->
   </div> <!-- .page-section -->
@@ -334,7 +344,7 @@
             <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
             <div class="divider"></div>
             <p>We're an experienced and talented team of passionate consultants who breathe with search engine marketing.</p>
-            
+
             <ul class="theme-list theme-list-light text-white">
               <li>
                 <div class="h5">SEO Content Strategy</div>
@@ -379,7 +389,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-lg-4 py-3 wow fadeInUp">
           <div class="card-blog">
             <div class="header">
@@ -460,15 +470,16 @@
     </div>
   </footer>
 
-<script src="../assets/js/jquery-3.5.1.min.js"></script>
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
 
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
-<script src="../assets/js/google-maps.js"></script>
+  <script src="../assets/js/google-maps.js"></script>
 
-<script src="../assets/vendor/wow/wow.min.js"></script>
+  <script src="../assets/vendor/wow/wow.min.js"></script>
 
-<script src="../assets/js/theme.js"></script>
-  
+  <script src="../assets/js/theme.js"></script>
+
 </body>
+
 </html>
