@@ -1710,6 +1710,9 @@
 }
 .mai-logo-whatsapp:before {
   content: "\ec5a";
+  color: #fff;
+  border-radius: 12px;
+  background-color: green;
 }
 .mai-logo-whmcs:before {
   content: "\ec5b";

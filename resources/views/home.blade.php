@@ -27,51 +27,8 @@
   <div class="back-to-top"></div>
 
   <header class="home-background">
-    <div class="d-flex justify-content-center" style="background-color: #fff">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link-icon" href="https://www.facebook.com/alltechsistemas/"><span class="mai-logo-facebook"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-icon" href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações."><span class="mai-logo-instagram"></span></a>
-        </li>
-      </ul>
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-transparent">
-      <div class="container-fluid">
-        <img src="{{ url('/assets/img/logo.png') }}" style="border-radius: 10px" />
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse collapse mx-auto" id="navbarContent">
-          <ul class="navbar-nav ml-auto mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">PÁGINA INICIAL</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">QUEM SOMOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="service.html">SOLUÇÕES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">DOWNLOADS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">FALE CONOSCO</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-areacliente ml-lg-2" href="#">ÁREA DO CLIENTE</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-
-
+    
+    @include('components/navbar')
 
     <div class="container">
       <div class="home-banner d-flex justify-content-center">
@@ -90,7 +47,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="{{ url('/assets/img/lojas_roupas.jpg') }}" class="d-block w-100" alt="...">
+              <img src="{{ url('/assets/img/loja-roupa.jpg') }}" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="titulo">SISTEMAS PARA LOJAS</h5>
                 <p class="titulo">Integra todas suas lojas com nossa solução Multi Lojas.</p>
@@ -116,36 +73,36 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="header">
-              <img src="../assets/img/services/service-1.svg" alt="">
+              <img src="../assets/img/cliente.png" alt="">
             </div>
             <div class="body">
-              <h5 class="text-secondary">SEO Consultancy</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
+              <h5 class="text-secondary">ÁREA DO CLIENTE</h5>
+              <p>Consulte sua empresa.</p>
+              <a href="service.html" class="btn btn-custom">Acesso ao portal</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="header">
-              <img src="../assets/img/services/service-2.svg" alt="">
+              <img src="../assets/img/suporte.png" alt="">
             </div>
             <div class="body">
-              <h5 class="text-secondary">Content Marketing</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
+              <h5 class="text-secondary">SUPORTE</h5> <br>
+              <p> <i class="mai-call"> </i> (22) 3823-7761 / 3824-5260</p>
+              <a href="service.html" class="btn btn-custom-whatsapp"><i class="mai-logo-whatsapp"> </i> Whatsapp </a>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="header">
-              <img src="../assets/img/services/service-3.svg" alt="">
+              <img src="../assets/img/xml.png" alt="">
             </div>
             <div class="body">
-              <h5 class="text-secondary">Keyword Research</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
+              <h5 class="text-secondary">BAIXAR XML</h5>
+              <p>Site da SEFAZ.</p>
+              <a href="service.html" class="btn btn-custom">Clique aqui</a>
             </div>
           </div>
         </div>

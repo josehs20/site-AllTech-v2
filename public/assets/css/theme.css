@@ -1338,6 +1338,10 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 2px 5px;
 }
 
+.titulopage{
+  color: #000;
+  font-size: 24px;
+}
 
 .page-section {
   position: relative;
@@ -1360,7 +1364,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .home-background{
-  height: 650px;
+  height: 700px;
   background-image: url('/assets/img/technologyyy.jpg') ;
   background-repeat: no-repeat;
 }
@@ -1469,6 +1473,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #6C55F9;
 }
 
+.p-custom:hover{
+  color: green;
+  font-weight: bold;
+}
 
 .card-service {
   display: block;
@@ -1479,6 +1487,8 @@ a.text-dark:hover, a.text-dark:focus {
   color: #898798;
   border-radius: 8px;
   box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px black;
 }
 
 .card-service .header {
