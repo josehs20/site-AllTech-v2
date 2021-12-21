@@ -1331,6 +1331,13 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: #fff;
 }
 
+.titulo{
+  color: #fff; 
+  background-color: #000; 
+  width: fit-content;
+  padding: 2px 5px;
+}
+
 
 .page-section {
   position: relative;
@@ -1353,13 +1360,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .home-background{
-  height: auto;
-  background-image: url('/assets/img/technology.jpg') ;
+  height: 650px;
+  background-image: url('/assets/img/technologyyy.jpg') ;
   background-repeat: no-repeat;
 }
 .page-banner.home-banner {
   height: auto;
-
 }
 
 .page-banner.home-banner .img-fluid {

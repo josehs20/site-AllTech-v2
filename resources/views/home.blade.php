@@ -27,20 +27,20 @@
   <div class="back-to-top"></div>
 
   <header class="home-background">
-    <nav class="navbar" style="background-color: #ffff">
-      <ul class="nav justify-content-end mx-auto">
+    <div class="d-flex justify-content-center" style="background-color: #fff">
+      <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/alltechsistemas/"><span class="mai-logo-facebook"></span></a>
+          <a class="nav-link-icon" href="https://www.facebook.com/alltechsistemas/"><span class="mai-logo-facebook"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações."><span class="mai-logo-instagram"></span></a>
+          <a class="nav-link-icon" href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações."><span class="mai-logo-instagram"></span></a>
         </li>
       </ul>
-    </nav>
-    <nav class="navbar navbar-expand-lg" style="background-color: #ffff">
-      
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-transparent">
       <div class="container-fluid">
-        <img src="{{ url('/assets/img/logo.png') }}" style="border-radius: 10px"/>
+        <img src="{{ url('/assets/img/logo.png') }}" style="border-radius: 10px" />
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -63,35 +63,49 @@
               <a class="nav-link" href="contact.html">FALE CONOSCO</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-2" href="#">ÁREA DO CLIENTE</a>
+              <a class="btn btn-areacliente ml-lg-2" href="#">ÁREA DO CLIENTE</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container" >
-      <div class="page-banner home-banner">
-        <div class="row align-items-center flex-wrap-reverse">
-          <div class="col-md-6 py-5 wow fadeInLeft">
-            <h1 class="mb-4">Let's Check and Optimize your website!</h1>
-            <p class="text-lg text-grey mb-5">Ignite the most powerfull growth engine you have ever built for your company</p>
-            <a href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações." class="btn btn-primary btn-split">Fale Conosco <div class="fab"><span class="mai-logo-whatsapp"></span></div></a>
-          </div>
-          <div class="col-md-6 py-5 wow zoomIn">
-            
-            <div class="img-fluid text-center">
-              <div class="carousel-item">
-                <img src="" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>...</h5>
-                  <p>...</p>
-                </div>
+
+
+
+    <div class="container">
+      <div class="home-banner d-flex justify-content-center">
+        <div style="margin-top: 20px" id="carouselExampleCaptions" class="carousel slide w-75" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="{{ url('/assets/img/slider1.jpg') }}" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="titulo">SISTEMA DE GESTÃO EMPRESARIAL</h5>
+                <p class="titulo">Assuma definitivamente o controle gerencial, fiscal e financeiro da sua empresa.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{{ url('/assets/img/lojas_roupas.jpg') }}" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="titulo">SISTEMAS PARA LOJAS</h5>
+                <p class="titulo">Integra todas suas lojas com nossa solução Multi Lojas.</p>
               </div>
             </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
       </div>
     </div>
   </header>
