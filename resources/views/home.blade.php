@@ -119,7 +119,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <span class="subhead">Sobre nós</span>
-          <h2 class="title-section">A solução perfeita para sua empresa.</h2>
+          <h2 class="titulopage">A solução perfeita para sua empresa.</h2>
           <div class="divider"></div>
 
           <p> &nbsp; &nbsp; &nbsp; Com mais de 14 anos de experiência no mercado de Automação Comercial, a ALL TECH SISTEMAS tem como principal objetivo criar soluções inovadoras que ajudam a total integração entre diversos setores de uma empresa e nos momentos de decisão, possibilitando assim, maior competitividade no seu segmento de mercado. Possuímos uma gama de serviços que visam contribuir com o desenvolvimento e o sucesso de nossos clientes.</p>
@@ -207,6 +207,10 @@
   <div class="page-section" style="background-color: #000;">
     <div class="wrap bg-image" style="background-image: url(../assets/img/tecnologyyy.png);">
       <div class="container text-center">
+        <div class="text-center wow fadeInUp">
+          <div class="title-section-bg-black">Onde estamos.</div>
+          <div class="divider mx-auto"></div>
+        </div>
         <div class="row">
           <div class="col-lg-4">
             <div style="background-color: #fff" class="card-service wow fadeInUp">
@@ -217,7 +221,7 @@
                 <h5 class="text-secondary">ITAPERUNA - RJ</h5> <br>
                 <a class="text-secondary" href="https://goo.gl/maps/KHS25j13L1cjD4zA9" target="_blank"> <i class="mai-locate"></i> Rua 10 de Maio Nº 348, Sala 101 - Centro - 28.300-000 Itaperuna - RJ.</a>
                 <p>Telefone (22) 3823-7761 / 3824-5260</p>
-                
+
                 <a href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações." class="btn btn-custom-whatsapp"><i class="mai-logo-whatsapp"> </i> Whatsapp </a>
               </div>
             </div>
