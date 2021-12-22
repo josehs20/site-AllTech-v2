@@ -1119,7 +1119,9 @@
 }
 .mai-locate:before {
   content: "\ea6c";
+  color:#ED7911;
 }
+
 .mai-location:before {
   content: "\ea6d";
 }

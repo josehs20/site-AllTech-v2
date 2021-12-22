@@ -10,6 +10,7 @@
   <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
   <title>ALL TECH SISTEMAS</title>
+  <link rel="shortcut icon" href="../assets/img/logo-titulo.jpg" type="image/x-icon">
 
   <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -27,12 +28,12 @@
   <div class="back-to-top"></div>
 
   <header class="home-background">
-    
+
     @include('components/navbar')
 
     <div class="container">
       <div class="home-banner d-flex justify-content-center">
-        <div style="margin-top: 20px" id="carouselExampleCaptions" class="carousel slide w-75" data-ride="carousel">
+        <div style="margin-top: 20px;" id="carouselExampleCaptions" class="carousel slide w-75" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -40,6 +41,9 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
+              <img src="{{ url('/assets/img/logo-background.jpeg') }}" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
               <img src="{{ url('/assets/img/slider1.jpg') }}" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="titulo">SISTEMA DE GESTÃO EMPRESARIAL</h5>
@@ -71,9 +75,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="card-service wow fadeInUp">
+          <div class="card-service wow fadeInUp movercard">
             <div class="header">
-              <img src="../assets/img/cliente.png" alt="">
+              <img src="../assets/img/cliente.png" alt="Logo para ilustrar area do cliente">
             </div>
             <div class="body">
               <h5 class="text-secondary">ÁREA DO CLIENTE</h5>
@@ -83,9 +87,9 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card-service wow fadeInUp">
+          <div class="card-service wow fadeInUp movercard">
             <div class="header">
-              <img src="../assets/img/suporte.png" alt="">
+              <img src="../assets/img/suporte.png" alt="Logo para ilustrar suporte">
             </div>
             <div class="body">
               <h5 class="text-secondary">SUPORTE</h5> <br>
@@ -95,9 +99,9 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card-service wow fadeInUp">
+          <div class="card-service wow fadeInUp movercard">
             <div class="header">
-              <img src="../assets/img/xml.png" alt="">
+              <img src="../assets/img/xml.png" alt="Logo para ilustrar baixar xml">
             </div>
             <div class="body">
               <h5 class="text-secondary">BAIXAR XML</h5>
@@ -114,17 +118,16 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
-          <span class="subhead">About us</span>
-          <h2 class="title-section">The number #1 SEO Service Company</h2>
+          <span class="subhead">Sobre nós</span>
+          <h2 class="title-section">A solução perfeita para sua empresa.</h2>
           <div class="divider"></div>
 
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-          <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
-          <a href="about.html" class="btn btn-primary mt-3">Read More</a>
+          <p> &nbsp; &nbsp; &nbsp; Com mais de 14 anos de experiência no mercado de Automação Comercial, a ALL TECH SISTEMAS tem como principal objetivo criar soluções inovadoras que ajudam a total integração entre diversos setores de uma empresa e nos momentos de decisão, possibilitando assim, maior competitividade no seu segmento de mercado. Possuímos uma gama de serviços que visam contribuir com o desenvolvimento e o sucesso de nossos clientes.</p>
+          <a href="{{ route('quem-somos') }}" class="btn btn-custom mt-3">Leia mais</a>
         </div>
         <div class="col-lg-6 py-3 wow fadeInRight">
           <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/about_frame.png" alt="">
+            <img src="../assets/img/sobrenos.jpeg" alt="">
           </div>
         </div>
       </div>
@@ -134,82 +137,66 @@
   <div class="page-section bg-light">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="subhead">Our services</div>
-        <h2 class="title-section">How SEO Team Can Help</h2>
+        <div class="titulopage">Uma plataforma completa aliada ao seu negócio</div>
+        <h2 class="title-section">Características da nossa solução</h2>
         <div class="divider mx-auto"></div>
       </div>
 
       <div class="row">
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+        <div class="col-sm py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <img src="../assets/img/fiscal.png" alt="Logo ilustrando adequação fiscal." />
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Adequação fiscal</h5>
+            <p>Em conformidade com a legislação vigente, homolagado e autorizado pelo Confaz, compatível com a NF-e, NFC-e, PAF-ECF (Cupom Fiscal), MDF-e, SINTEGRA e SPED.</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+        <div class="col-sm py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <img src="../assets/img/estoque.png" alt="Logo ilustrando estoque.">
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Controle de Estoque</h5>
+            <p>Tenha um controle de estoque preciso e integrado com vendas e financeiro, resultando em ajustes e conferências eficientes para sua empresa.</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+        <div class="col-sm py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <img src="../assets/img/vendas.png" alt="Logo ilustrando vendas.">
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Gestão de Vendas</h5>
+            <p>Administre os processos de venda com praticidade, tenha tudo registrado em uma listagem de vendas e gerencie com precisão a comissão de vendedores.</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+      </div>
+      <div class="row">
+        <div class="col-sm py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <img src="../assets/img/cfinanceiro.png" alt="Logo ilustrando controle financeiro.">
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Controle Financeiro</h5>
+            <p>Acompanhe as movimentações financeiras do seu negócio, com tudo integrado no sistema de gestão, o gerenciamento das suas contas será muito mais confiável.</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+        <div class="col-sm py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <img src="../assets/img/resultados.png" alt="Logo ilustrando resultados.">
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Acompanhe seus resultados</h5>
+            <p>Planeje-se melhor com os relatórios gerenciais detalhados, disponibilizamos os melhores relatórios para que sua tomada de decisão seja mais eficiente que nunca!</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+        <div class="col-sm py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <img src="../assets/img/sup.png" alt="Logo ilustrando suporte.">
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-          <div class="features">
-            <div class="header mb-3">
-              <span class="mai-business"></span>
-            </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-          <div class="features">
-            <div class="header mb-3">
-              <span class="mai-business"></span>
-            </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Suporte Técnico</h5>
+            <p>Os clientes da ALL TECH SISTEMAS contam com uma equipe especializada, que está à disposição para prestar um suporte técnico de qualidade.</p>
           </div>
         </div>
       </div>
@@ -217,235 +204,55 @@
     </div> <!-- .container -->
   </div> <!-- .page-section -->
 
-  <div class="page-section banner-seo-check">
-    <div class="wrap bg-image" style="background-image: url(../assets/img/bg_pattern.svg);">
+  <div class="page-section" style="background-color: #000;">
+    <div class="wrap bg-image" style="background-image: url(../assets/img/tecnologyyy.png);">
       <div class="container text-center">
-        <div class="row justify-content-center wow fadeInUp">
-          <div class="col-lg-8">
-            <h2 class="mb-4">Check your Website SEO</h2>
-            <form action="#">
-              <input type="text" class="form-control" placeholder="E.g google.com">
-              <button type="submit" class="btn btn-success">Check Now</button>
-            </form>
+        <div class="row">
+          <div class="col-lg-4">
+            <div style="background-color: #fff" class="card-service wow fadeInUp">
+              <div class="header">
+                <span class="mai-location"></span>
+              </div>
+              <div class="body">
+                <h5 class="text-secondary">ITAPERUNA - RJ</h5> <br>
+                <a class="text-secondary" href="https://goo.gl/maps/KHS25j13L1cjD4zA9" target="_blank"> <i class="mai-locate"></i> Rua 10 de Maio Nº 348, Sala 101 - Centro - 28.300-000 Itaperuna - RJ.</a>
+                <p>Telefone (22) 3823-7761 / 3824-5260</p>
+                
+                <a href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações." class="btn btn-custom-whatsapp"><i class="mai-logo-whatsapp"> </i> Whatsapp </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div style="background-color: #fff" class="card-service wow fadeInUp">
+              <div class="header">
+                <span class="mai-location"></span>
+              </div>
+              <div class="body">
+                <h5 class="text-secondary">CAMPOS DOS GOYTACAZES - RJ</h5> <br>
+                <a class="text-secondary" href="https://goo.gl/maps/DeoiR2Y9zp4YCRYs7" target="_blank"> <i class="mai-locate"></i>Rua Antônio Alves Cordeiro, 63 Pq Rosário - 28.027-050 | Campos dos Goytacazes - RJ. </a>
+                <p>Telefone (22) 9.9926-1829</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div style="background-color: #fff" class="card-service wow fadeInUp">
+              <div class="header">
+                <span class="mai-location"></span>
+              </div>
+              <div class="body">
+                <h5 class="text-secondary">RIO DAS OSTRAS - RJ</h5>
+                <a class="text-secondary" href="https://goo.gl/maps/MB66GRCJsoDcVzBg6" target="_blank"> <i class="mai-locate"></i> Rua Joaquim José Caridade 753 Casa 14 Chácara Marileia - 28895 886 | Rio das Ostras - RJ</a>
+              </div>
+            </div>
           </div>
         </div>
       </div> <!-- .container -->
     </div> <!-- .wrap -->
   </div> <!-- .page-section -->
 
-  <div class="page-section">
+  <footer style="background-color: #fff; margin-top: 10px">
     <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="subhead">Pricing Plan</div>
-        <h2 class="title-section">Choose plan the right for you</h2>
-        <div class="divider mx-auto"></div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow zoomIn">
-          <div class="card-pricing">
-            <div class="header">
-              <div class="pricing-type">Basic</div>
-              <div class="price">
-                <span class="dollar">$</span>
-                <h1>39<span class="suffix">.99</span></h1>
-              </div>
-              <h5>Per Month</h5>
-            </div>
-            <div class="body">
-              <p>25 Analytics <span class="suffix">Campaign</span></p>
-              <p>1,300 Change <span class="suffix">Keywords</span></p>
-              <p>Social Media <span class="suffix">Reviews</span></p>
-              <p>1 Free <span class="suffix">Optimization</span></p>
-              <p>24/7 <span class="suffix">Support</span></p>
-            </div>
-            <div class="footer">
-              <a href="#" class="btn btn-pricing btn-block">Subscribe</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow zoomIn">
-          <div class="card-pricing marked">
-            <div class="header">
-              <div class="pricing-type">Standar</div>
-              <div class="price">
-                <span class="dollar">$</span>
-                <h1>59<span class="suffix">.99</span></h1>
-              </div>
-              <h5>Per Month</h5>
-            </div>
-            <div class="body">
-              <p>25 Analytics <span class="suffix">Campaign</span></p>
-              <p>1,300 Change <span class="suffix">Keywords</span></p>
-              <p>Social Media <span class="suffix">Reviews</span></p>
-              <p>1 Free <span class="suffix">Optimization</span></p>
-              <p>24/7 <span class="suffix">Support</span></p>
-            </div>
-            <div class="footer">
-              <a href="#" class="btn btn-pricing btn-block">Subscribe</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow zoomIn">
-          <div class="card-pricing">
-            <div class="header">
-              <div class="pricing-type">Professional</div>
-              <div class="price">
-                <span class="dollar">$</span>
-                <h1>99<span class="suffix">.99</span></h1>
-              </div>
-              <h5>Per Month</h5>
-            </div>
-            <div class="body">
-              <p>25 Analytics <span class="suffix">Campaign</span></p>
-              <p>1,300 Change <span class="suffix">Keywords</span></p>
-              <p>Social Media <span class="suffix">Reviews</span></p>
-              <p>1 Free <span class="suffix">Optimization</span></p>
-              <p>24/7 <span class="suffix">Support</span></p>
-            </div>
-            <div class="footer">
-              <a href="#" class="btn btn-pricing btn-block">Subscribe</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div> <!-- .container -->
-  </div> <!-- .page-section -->
-
-  <!-- Banner info -->
-  <div class="page-section banner-info">
-    <div class="wrap bg-image" style="background-image: url(../assets/img/bg_pattern.svg);">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
-            <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
-            <div class="divider"></div>
-            <p>We're an experienced and talented team of passionate consultants who breathe with search engine marketing.</p>
-
-            <ul class="theme-list theme-list-light text-white">
-              <li>
-                <div class="h5">SEO Content Strategy</div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-              </li>
-              <li>
-                <div class="h5">B2B SEO</div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 py-3 wow fadeInRight">
-            <div class="img-fluid text-center">
-              <img src="../assets/img/banner_image_2.svg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .wrap -->
-  </div> <!-- .page-section -->
-
-  <!-- Blog -->
-  <div class="page-section">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="subhead">Our Blog</div>
-        <h2 class="title-section">Read Latest News</h2>
-        <div class="divider mx-auto"></div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-1.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-2.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-3.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 mt-4 text-center wow fadeInUp">
-          <a href="blog.html" class="btn btn-primary">View More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-lg-3 py-3">
-          <h3>SEOGram</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
-
-          <div class="social-media-button">
-            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-logo-google-plus-g"></span></a>
-            <a href="#"><span class="mai-logo-instagram"></span></a>
-            <a href="#"><span class="mai-logo-youtube"></span></a>
-          </div>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Company</h5>
-          <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Help & Support</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Contact Us</h5>
-          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-          <a href="#" class="footer-link">+00 1122 3344 5566</a>
-          <a href="#" class="footer-link">seogram@temporary.com</a>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Newsletter</h5>
-          <p>Get updates, news or events on your mail.</p>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your email..">
-            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-          </form>
-        </div>
-      </div>
-
-      <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+      <p class="text-center" id="copyright">Copyright &copy; <?= date('Y') ?>. All Tech Sistemas Todos Direitos Reservados.</p>
     </div>
   </footer>
 
