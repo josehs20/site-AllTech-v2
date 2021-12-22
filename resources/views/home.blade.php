@@ -78,7 +78,7 @@
             <div class="body">
               <h5 class="text-secondary">ÁREA DO CLIENTE</h5>
               <p>Consulte sua empresa.</p>
-              <a href="service.html" class="btn btn-custom">Acesso ao portal</a>
+              <a href="https://app.alltechsistemas.com.br/login" class="btn btn-custom">Acesso ao portal</a>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
             <div class="body">
               <h5 class="text-secondary">SUPORTE</h5> <br>
               <p> <i class="mai-call"> </i> (22) 3823-7761 / 3824-5260</p>
-              <a href="service.html" class="btn btn-custom-whatsapp"><i class="mai-logo-whatsapp"> </i> Whatsapp </a>
+              <a href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações." class="btn btn-custom-whatsapp"><i class="mai-logo-whatsapp"> </i> Whatsapp </a>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
             <div class="body">
               <h5 class="text-secondary">BAIXAR XML</h5>
               <p>Site da SEFAZ.</p>
-              <a href="service.html" class="btn btn-custom">Clique aqui</a>
+              <a href="http://www.nfe.fazenda.gov.br/portal/principal.aspx" class="btn btn-custom">Clique aqui</a>
             </div>
           </div>
         </div>
