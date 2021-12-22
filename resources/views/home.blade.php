@@ -40,10 +40,10 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
               <img src="{{ url('/assets/img/logo-background.jpeg') }}" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <img src="{{ url('/assets/img/slider1.jpg') }}" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="titulo">SISTEMA DE GESTÃO EMPRESARIAL</h5>
@@ -254,11 +254,7 @@
     </div> <!-- .wrap -->
   </div> <!-- .page-section -->
 
-  <footer style="background-color: #fff; margin-top: 10px">
-    <div class="container">
-      <p class="text-center" id="copyright">Copyright &copy; <?= date('Y') ?>. All Tech Sistemas Todos Direitos Reservados.</p>
-    </div>
-  </footer>
+  @include('components/footer')
 
   <script src="../assets/js/jquery-3.5.1.min.js"></script>
 
