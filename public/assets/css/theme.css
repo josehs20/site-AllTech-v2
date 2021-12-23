@@ -1575,6 +1575,11 @@ a.text-dark:hover, a.text-dark:focus {
   right: 6px;
 }
 
+.card-img-custom{
+  padding: 2px; 
+  margin: 15px 5px;
+}
+
 .card-principios-caixa {
   position: relative;
   display: block;
