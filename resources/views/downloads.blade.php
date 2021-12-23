@@ -9,7 +9,8 @@
 
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-    <title>ALL TECH SISTEMAS</title>
+    <title>Downloads</title>
+    <link rel="shortcut icon" href="../assets/img/logo-titulo.jpg" type="image/x-icon">
 
     <link rel="stylesheet" href="../assets/css/maicons.css">
 
