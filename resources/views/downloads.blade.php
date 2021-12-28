@@ -41,7 +41,7 @@
                         <div class="body">
                         <p>Team Viewer</p>
                             <div class="row">
-                                <a href="https://www.teamviewer.com/pt-br/download/windows/?utm_source=google&utm_medium=cpc&utm_campaign=br%7Cnb%7Cpr%7C21%7Capr%7CRMM-Broad-Match%7Cfree%7Ct0%7C0%7Cdl%7Cg&utm_content=Remote-Access&utm_term=acesso%20remoto" class="col btn btn-custom">BAIXAR</a>
+                                <a href="https://www.teamviewer.com/pt-br/download/windows/?utm_source=google&utm_medium=cpc&utm_campaign=br%7Cnb%7Cpr%7C21%7Capr%7CRMM-Broad-Match%7Cfree%7Ct0%7C0%7Cdl%7Cg&utm_content=Remote-Access&utm_term=acesso%20remoto" target="_blank" class="col btn btn-custom">BAIXAR</a>
                             </div> <br>
                             <div class="row">
                                 <a href="https://dl.teamviewer.com/download/version_15x/TeamViewer_Setup_x64.exe?utm_source=google&utm_medium=cpc&utm_campaign=br%7Cnb%7Cpr%7C21%7Capr%7CRMM-Broad-Match%7Cfree%7Ct0%7C0%7Cdl%7Cg&utm_content=Remote-Access&utm_term=acesso+remoto&gclid=CjwKCAiAtouOBhA6EiwA2nLKH5DbZID-XmZ4ncpB-uh3P9TYgYaWkyDookPkL5FKt1thGrZCLMbM4hoCzpoQAvD_BwE&ref=https%3A%2F%2Fwww.teamviewer.com%2Fpt-br%2Fprodutos%2Fteamviewer%2F%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dbr%7Cnb%7Cpr%7C21%7Capr%7CRMM-Broad-Match%7Cfree%7Ct0%7C0%7Cdl%7Cg%26utm_content%3DRemote-Access%26utm_term%3Dacesso%2520remoto%26gclid%3DCjwKCAiAtouOBhA6EiwA2nLKH5DbZID-XmZ4ncpB-uh3P9TYgYaWkyDookPkL5FKt1thGrZCLMbM4hoCzpoQAvD_BwE" class="col btn btn-custom">BAIXAR AGORA (windows)</a>
@@ -57,7 +57,7 @@
                         <div class="body">
                         <p>AnyDesk</p>
                             <div class="row">
-                                <a href="https://anydesk.com/pt/downloads" class="col btn btn-custom">BAIXAR</a>
+                                <a href="https://anydesk.com/pt/downloads" target="_blank" class="col btn btn-custom">BAIXAR</a>
                             </div><br>
                             <div class="row">
                                 <a href="https://download.anydesk.com/AnyDesk.exe" class="col btn btn-custom">BAIXAR AGORA (windows)</a>
@@ -73,7 +73,7 @@
                         <div class="body">
                             <p>Ammyy Admin</p>
                             <div class="row">
-                                <a href="https://www.ammyy.com/pt/downloads.html" class="col btn btn-custom">BAIXAR</a>
+                                <a href="https://www.ammyy.com/pt/downloads.html" target="_blank" class="col btn btn-custom">BAIXAR</a>
                             </div><br>
                         </div>
                     </div>
