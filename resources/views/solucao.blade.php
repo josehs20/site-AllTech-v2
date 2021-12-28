@@ -53,6 +53,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Cadastros</h5>
+                  <hr>
                   <p>Fornecedores, Clientes, Grupos/Subgrupos e Produtos/Serviços, Vendedores, Funcionários, etc.</p>
                 </div>
               </div>
@@ -61,6 +62,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Vendas</h5>
+                  <hr>
                   <p>Processos de venda com praticidade, tenha tudo registrado em uma listagem de vendas e gerencie com precisão a comissão de vendedores.</p>
                 </div>
               </div>
@@ -69,6 +71,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Atacado</h5>
+                  <hr>
                   <p>Controle de Orçamementos, Pedidos e Consignações, Romaneio de entrega por rota e Manifestos de Carga.</p>
                 </div>
               </div>
@@ -77,6 +80,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Compras</h5>
+                  <hr>
                   <p>Gestor de compras, poderoso utilitário que analisa o giro da mercadoria num determinado período e faz sugestão do que precisa comprar, a quantidade e o custo aproximado.</p>
                 </div>
               </div>
@@ -87,6 +91,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Estoque</h5>
+                  <hr>
                   <p>Controle entre filiais, Consulta da Movimentação dos itens e diversos relatórios: Tabela de Preço, Estoque Mínimo, Estoque Zerado no Dia, Itens Alterados, Inventário, etc.</p>
                 </div>
               </div>
@@ -95,6 +100,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Financeiro</h5>
+                  <hr>
                   <p>Contas a pagar, Contas a Receber e Plano de Contas Gerenciais.</p>
                 </div>
               </div>
@@ -103,6 +109,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Fiscal</h5>
+                  <hr>
                   <p>Emissão de NFC-e, NF-e, MDF-e (Individual ou por lote, em comunicação com Software Governamental e/ou emissão própria, Apuração de ICMS, Geração do Sintegra, SPED EFD e SPED Contribuições com extrema facilidade.)</p>
                 </div>
               </div>
@@ -111,6 +118,7 @@
               <div class="card-service">
                 <div class="body">
                   <h5 class="text-secondary">Mobile</h5>
+                  <hr>
                   <p>Eleve seu negócio ao mais alto nível. Efetue vendas e gerencie toda a sua empresa, de onde estiver, na palma da sua mão.</p>
                 </div>
               </div>
@@ -170,20 +178,80 @@
       </div>
     </div>
     <br>
-    <div class="row d-flex justify-content-center">
-      <div class="card-principios-caixa">
-        <img src="{{ url('/assets/img/caixa1.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+    <div class="container-fluid text-center">
+      <!-- Botão para acionar modal -->
+      <button class="btn btn-custom card-img-custom" data-toggle="modal" data-target=".bd-example-modal-lg">
+        <img style="width: 250px;" src="{{ url('/assets/img/caixa1.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+      </button>
+      <!-- Modal Caixa1 -->
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <img src="{{ url('/assets/img/caixa1.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+          </div>
+        </div>
       </div>
-      <div class="image card-principios-caixa">
-          <img src="{{ url('/assets/img/caixa2.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+
+      <!-- Botão para acionar modal -->
+      <button class="btn btn-custom card-img-custom" data-toggle="modal" data-target=".bd-example-modal-lg-c2">
+        <img style="width: 250px;" src="{{ url('/assets/img/caixa2.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+      </button>
+      <!-- Modal Caixa2 -->
+      <div class="modal fade bd-example-modal-lg-c2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <img src="{{ url('/assets/img/caixa2.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+          </div>
+        </div>
       </div>
-      <div class="card-principios-caixa">
-        <img src="{{ url('/assets/img/caixa3.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+
+      <!-- Botão para acionar modal -->
+      <button class="btn btn-custom card-img-custom" data-toggle="modal" data-target=".bd-example-modal-lg-c3">
+        <img style="width: 250px;" src="{{ url('/assets/img/caixa3.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+      </button>
+      <!-- Modal Caixa3 -->
+      <div class="modal fade bd-example-modal-lg-c3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <img src="{{ url('/assets/img/caixa3.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+          </div>
+        </div>
       </div>
-      <div class="card-principios-caixa">
-        <img src="{{ url('/assets/img/caixa4.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+
+      <!-- Botão para acionar modal -->
+      <button class="btn btn-custom card-img-custom" data-toggle="modal" data-target=".bd-example-modal-lg-c4">
+        <img style="width: 250px;" src="{{ url('/assets/img/caixa4.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+      </button>
+      <!-- Modal Caixa4 -->
+      <div class="modal fade bd-example-modal-lg-c4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <img src="{{ url('/assets/img/caixa4.jpg') }}" alt="Imagem ilustrando caixa de supermercado.">
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
   <br> <br>
 
