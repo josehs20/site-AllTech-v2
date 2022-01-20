@@ -92,7 +92,7 @@
               <img src="../assets/img/suporte.png" alt="Logo para ilustrar suporte">
             </div>
             <div class="body">
-              <h5 class="text-secondary">SUPORTE</h5> <br>
+              <h5 class="text-secondary">SUPORTE</h5>
               <p> <i class="mai-call"> </i> (22) 3823-7761 / 3824-5260</p>
               <a href="https://api.whatsapp.com/send?phone=5522999238245&text=Olá, gostaria de mais informações." class="btn btn-custom-whatsapp"><i class="mai-logo-whatsapp"> </i> Whatsapp </a>
             </div>
