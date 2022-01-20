@@ -1492,6 +1492,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 16px auto;
   padding: 32px 20px;
   max-width: 340px;
+  height: 320px;
   text-align: center;
   color: #898798;
   border-radius: 8px;
